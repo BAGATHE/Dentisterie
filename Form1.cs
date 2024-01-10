@@ -1,5 +1,5 @@
-using Connection;
 using Npgsql;
+using System.Text;
 
 namespace Dentiste
 {
@@ -13,11 +13,11 @@ namespace Dentiste
         private void clickButton(object sender, EventArgs e)
         {
 
-            string baseConnection = "postgres"; // Remplacez par la valeur appropriée
+            string baseConnection = "postgres"; // Remplacez par la valeur appropriï¿½e
             Connect connect = new Connect();
             NpgsqlConnection connection = connect.DbConnect(baseConnection);
 
-            // Vérifier si la connexion n'est pas null
+            // Vï¿½rifier si la connexion n'est pas null
             if (connection != null)
             {
                 try
@@ -26,8 +26,8 @@ namespace Dentiste
                     connection.Open();
 
                     // Afficher le statut de la connexion
-                    MessageBox.Show($"État de la connexion : {connection.State}", "MEss", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    // Fermer la connexion une fois les opérations terminées
+                    MessageBox.Show($"ï¿½tat de la connexion : {connection.State}", "MEss", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    // Fermer la connexion une fois les opï¿½rations terminï¿½es
                     connection.Close();
                 }
                 catch (Exception ex)
@@ -36,7 +36,7 @@ namespace Dentiste
                 }
                 finally
                 {
-                    // Assurez-vous de fermer la connexion même en cas d'exception
+                    // Assurez-vous de fermer la connexion mï¿½me en cas d'exception
                     if (connection != null && connection.State == System.Data.ConnectionState.Open)
                     {
                         connection.Close();
@@ -45,7 +45,7 @@ namespace Dentiste
             }
             else
             {
-                MessageBox.Show("La connexion est null. Impossible de se connecter à la base de données.", "MEss", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("La connexion est null. Impossible de se connecter ï¿½ la base de donnï¿½es.", "MEss", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
         }
@@ -57,6 +57,7 @@ namespace Dentiste
 
         private void champFormulaire_KeyPressed(object sender, KeyPressEventArgs e)
         {
+            TextBox texbox = (TextBox)sender;
             if (!char.IsDigit(e.KeyChar) && e.KeyChar != '\b')
             {
                 e.Handled = true;
@@ -64,37 +65,64 @@ namespace Dentiste
 
         }
 
-        private void validation(object sender, EventArgs e)
+        private void Validation(object sender, EventArgs e){
+    // Collecte des donnÃ©es des champs de texte
+    
+    List<EtatNify> dB = new List<EtatNify>();
+    List<EtatNify> dH = new List<EtatNify>();
+
+    List<EtatNify> dentB = new List<EtatNify>();
+    List<EtatNify> dentH = new List<EtatNify>();
+    List<EtatNify> allDent= new List<EtatNify>();
+    for (int i = 1; i <= 16; i++)
+    {
+        TextBox dentHaut = Controls.Find("DH_" + i, true).FirstOrDefault() as TextBox;
+        TextBox dentBas = Controls.Find("DB_" + i, true).FirstOrDefault() as TextBox;
+
+        if (dentHaut != null && dentBas != null)
         {
-            // Collecte des données des champs de texte
-            string[] textBoxValues = new string[32];
-
-            string[] textBoxName = new string[32];
-            for (int i = 1; i <= 32; i++)
+               if (int.TryParse(dentBas.Text, out int etatBas) && int.TryParse(dentHaut.Text, out int etatHaut))
             {
-                TextBox textBox = Controls.Find("textBox" + i, true).FirstOrDefault() as TextBox;
-                if (textBox != null)
-                {
-                    textBoxValues[i - 1] = textBox.Text;
-                    textBoxName[i - 1] = textBox.Name;
-                }
+                dB.Add(new EtatNify(dentBas.Name, etatBas));
+                dH.Add(new EtatNify(dentHaut.Name, etatHaut));
             }
-
-            // Récupération des valeurs du ComboBox et du champ de texte
-            string comboBoxValue = comboBox1.SelectedItem?.ToString();
-            string textBox33Value = textBox33.Text;
-
-            // Affichage des données dans un MessageBox
-            string message = "Données du formulaire :\n";
-            for (int i = 0; i < 32; i++)
+            else
             {
-                message += $"{textBoxName[i]}: {textBoxValues[i]}\n";
+            // GÃ©rer l'erreur de conversion si nÃ©cessaire    
             }
-            message += $"comboBox1: {comboBoxValue}\n";
-            message += $"textBox33: {textBox33Value}";
-
-            MessageBox.Show(message, "Résultat");
         }
+    }
+
+    allDent.AddRange(dentH);
+    allDent.AddRange(dentB);
+    EtatNify etat = new EtatNify();
+   dentB = etat.RearrangeOrder(dB);
+   dentH = etat.RearrangeOrder(dH);
+
+    // RÃ©cupÃ©ration des valeurs du ComboBox et du champ de texte
+    string comboBoxValue = comboBox1.SelectedItem?.ToString();
+    string textBox33Value = textBox33.Text;
+
+
+
+    // Affichage des donnÃ©es dans un MessageBox
+    StringBuilder messageBuilder = new StringBuilder("Donnees du formulaire :\n");
+
+    for (int i = 0; i < 16; i++)
+    {
+        messageBuilder.AppendLine($"DentBas {i + 1}: {dentB[i].IdDent} - Etat: {dentB[i].Etat}");
+    }
+
+    for (int i = 0; i < 16; i++)
+    {
+        messageBuilder.AppendLine($"DentHaut {i + 1}: {dentH[i].IdDent} - Etat: {dentH[i].Etat}");
+    }
+
+    messageBuilder.AppendLine($"comboBox1: {comboBoxValue}");
+    messageBuilder.AppendLine($"textBox33: {textBox33Value}");
+
+    MessageBox.Show(messageBuilder.ToString(), "RÃ©sultat");
+}
 
         
 

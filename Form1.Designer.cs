@@ -32,38 +32,38 @@
             button1 = new Button();
             comboBox1 = new ComboBox();
             textBox33 = new TextBox();
-            textBox32 = new TextBox();
-            textBox16 = new TextBox();
-            textBox31 = new TextBox();
-            textBox15 = new TextBox();
-            textBox30 = new TextBox();
-            textBox14 = new TextBox();
-            textBox29 = new TextBox();
-            textBox13 = new TextBox();
-            textBox28 = new TextBox();
-            textBox12 = new TextBox();
-            textBox27 = new TextBox();
-            textBox11 = new TextBox();
-            textBox26 = new TextBox();
-            textBox25 = new TextBox();
-            textBox10 = new TextBox();
-            textBox24 = new TextBox();
-            textBox9 = new TextBox();
-            textBox23 = new TextBox();
-            textBox8 = new TextBox();
-            textBox22 = new TextBox();
-            textBox7 = new TextBox();
-            textBox21 = new TextBox();
-            textBox6 = new TextBox();
-            textBox20 = new TextBox();
-            textBox5 = new TextBox();
-            textBox19 = new TextBox();
-            textBox4 = new TextBox();
-            textBox18 = new TextBox();
-            textBox3 = new TextBox();
-            textBox17 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            DB_16 = new TextBox();
+            DH_16 = new TextBox();
+            DB_15 = new TextBox();
+            DH_15 = new TextBox();
+            DB_14 = new TextBox();
+            DH_14 = new TextBox();
+            DB_13 = new TextBox();
+            DH_13 = new TextBox();
+            DB_12 = new TextBox();
+            DH_12 = new TextBox();
+            DB_11 = new TextBox();
+            DH_11 = new TextBox();
+            DB_10 = new TextBox();
+            DB_9 = new TextBox();
+            DH_10 = new TextBox();
+            DB_8 = new TextBox();
+            DH_9 = new TextBox();
+            DB_7 = new TextBox();
+            DH_8 = new TextBox();
+            DB_6 = new TextBox();
+            DH_7 = new TextBox();
+            DB_5 = new TextBox();
+            DH_6 = new TextBox();
+            DB_4 = new TextBox();
+            DH_5 = new TextBox();
+            DB_3 = new TextBox();
+            DH_4 = new TextBox();
+            DB_2 = new TextBox();
+            DH_3 = new TextBox();
+            DB_1 = new TextBox();
+            DH_2 = new TextBox();
+            DH_1 = new TextBox();
             label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
@@ -82,38 +82,38 @@
             splitContainer1.Panel1.Controls.Add(button1);
             splitContainer1.Panel1.Controls.Add(comboBox1);
             splitContainer1.Panel1.Controls.Add(textBox33);
-            splitContainer1.Panel1.Controls.Add(textBox32);
-            splitContainer1.Panel1.Controls.Add(textBox16);
-            splitContainer1.Panel1.Controls.Add(textBox31);
-            splitContainer1.Panel1.Controls.Add(textBox15);
-            splitContainer1.Panel1.Controls.Add(textBox30);
-            splitContainer1.Panel1.Controls.Add(textBox14);
-            splitContainer1.Panel1.Controls.Add(textBox29);
-            splitContainer1.Panel1.Controls.Add(textBox13);
-            splitContainer1.Panel1.Controls.Add(textBox28);
-            splitContainer1.Panel1.Controls.Add(textBox12);
-            splitContainer1.Panel1.Controls.Add(textBox27);
-            splitContainer1.Panel1.Controls.Add(textBox11);
-            splitContainer1.Panel1.Controls.Add(textBox26);
-            splitContainer1.Panel1.Controls.Add(textBox25);
-            splitContainer1.Panel1.Controls.Add(textBox10);
-            splitContainer1.Panel1.Controls.Add(textBox24);
-            splitContainer1.Panel1.Controls.Add(textBox9);
-            splitContainer1.Panel1.Controls.Add(textBox23);
-            splitContainer1.Panel1.Controls.Add(textBox8);
-            splitContainer1.Panel1.Controls.Add(textBox22);
-            splitContainer1.Panel1.Controls.Add(textBox7);
-            splitContainer1.Panel1.Controls.Add(textBox21);
-            splitContainer1.Panel1.Controls.Add(textBox6);
-            splitContainer1.Panel1.Controls.Add(textBox20);
-            splitContainer1.Panel1.Controls.Add(textBox5);
-            splitContainer1.Panel1.Controls.Add(textBox19);
-            splitContainer1.Panel1.Controls.Add(textBox4);
-            splitContainer1.Panel1.Controls.Add(textBox18);
-            splitContainer1.Panel1.Controls.Add(textBox3);
-            splitContainer1.Panel1.Controls.Add(textBox17);
-            splitContainer1.Panel1.Controls.Add(textBox2);
-            splitContainer1.Panel1.Controls.Add(textBox1);
+            splitContainer1.Panel1.Controls.Add(DB_16);
+            splitContainer1.Panel1.Controls.Add(DH_16);
+            splitContainer1.Panel1.Controls.Add(DB_15);
+            splitContainer1.Panel1.Controls.Add(DH_15);
+            splitContainer1.Panel1.Controls.Add(DB_14);
+            splitContainer1.Panel1.Controls.Add(DH_14);
+            splitContainer1.Panel1.Controls.Add(DB_13);
+            splitContainer1.Panel1.Controls.Add(DH_13);
+            splitContainer1.Panel1.Controls.Add(DB_12);
+            splitContainer1.Panel1.Controls.Add(DH_12);
+            splitContainer1.Panel1.Controls.Add(DB_11);
+            splitContainer1.Panel1.Controls.Add(DH_11);
+            splitContainer1.Panel1.Controls.Add(DB_10);
+            splitContainer1.Panel1.Controls.Add(DB_9);
+            splitContainer1.Panel1.Controls.Add(DH_10);
+            splitContainer1.Panel1.Controls.Add(DB_8);
+            splitContainer1.Panel1.Controls.Add(DH_9);
+            splitContainer1.Panel1.Controls.Add(DB_7);
+            splitContainer1.Panel1.Controls.Add(DH_8);
+            splitContainer1.Panel1.Controls.Add(DB_6);
+            splitContainer1.Panel1.Controls.Add(DH_7);
+            splitContainer1.Panel1.Controls.Add(DB_5);
+            splitContainer1.Panel1.Controls.Add(DH_6);
+            splitContainer1.Panel1.Controls.Add(DB_4);
+            splitContainer1.Panel1.Controls.Add(DH_5);
+            splitContainer1.Panel1.Controls.Add(DB_3);
+            splitContainer1.Panel1.Controls.Add(DH_4);
+            splitContainer1.Panel1.Controls.Add(DB_2);
+            splitContainer1.Panel1.Controls.Add(DH_3);
+            splitContainer1.Panel1.Controls.Add(DB_1);
+            splitContainer1.Panel1.Controls.Add(DH_2);
+            splitContainer1.Panel1.Controls.Add(DH_1);
             splitContainer1.Panel1.Controls.Add(label1);
             splitContainer1.Size = new Size(800, 450);
             splitContainer1.SplitterDistance = 382;
@@ -128,12 +128,12 @@
             button1.TabIndex = 4;
             button1.Text = "VALIDER";
             button1.UseVisualStyleBackColor = false;
-            button1.Click += validation;
+            button1.Click += Validation;
             // 
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Operation Jejo", "Operation Mahasalama" });
+            comboBox1.Items.AddRange(new object[] { "Jejo", "Mahasalama" });
             comboBox1.Location = new Point(80, 259);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(179, 23);
@@ -146,261 +146,261 @@
             textBox33.Size = new Size(180, 23);
             textBox33.TabIndex = 2;
             // 
-            // textBox32
+            // DB_16
             // 
-            textBox32.Location = new Point(361, 112);
-            textBox32.Name = "textBox32";
-            textBox32.Size = new Size(18, 23);
-            textBox32.TabIndex = 1;
-            textBox32.KeyPress += champFormulaire_KeyPressed;
+            DB_16.Location = new Point(361, 112);
+            DB_16.Name = "DB_16";
+            DB_16.Size = new Size(18, 23);
+            DB_16.TabIndex = 1;
+            DB_16.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox16
+            // DH_16
             // 
-            textBox16.Location = new Point(361, 55);
-            textBox16.Name = "textBox16";
-            textBox16.Size = new Size(18, 23);
-            textBox16.TabIndex = 1;
-            textBox16.KeyPress += champFormulaire_KeyPressed;
+            DH_16.Location = new Point(361, 55);
+            DH_16.Name = "DH_16";
+            DH_16.Size = new Size(18, 23);
+            DH_16.TabIndex = 1;
+            DH_16.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox31
+            // DB_15
             // 
-            textBox31.Location = new Point(340, 112);
-            textBox31.Name = "textBox31";
-            textBox31.Size = new Size(17, 23);
-            textBox31.TabIndex = 1;
-            textBox31.KeyPress += champFormulaire_KeyPressed;
+            DB_15.Location = new Point(340, 112);
+            DB_15.Name = "DB_15";
+            DB_15.Size = new Size(17, 23);
+            DB_15.TabIndex = 1;
+            DB_15.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox15
+            // DH_15
             // 
-            textBox15.Location = new Point(340, 55);
-            textBox15.Name = "textBox15";
-            textBox15.Size = new Size(17, 23);
-            textBox15.TabIndex = 1;
-            textBox15.KeyPress += champFormulaire_KeyPressed;
+            DH_15.Location = new Point(340, 55);
+            DH_15.Name = "DH_15";
+            DH_15.Size = new Size(17, 23);
+            DH_15.TabIndex = 1;
+            DH_15.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox30
+            // DB_14
             // 
-            textBox30.Location = new Point(316, 112);
-            textBox30.Name = "textBox30";
-            textBox30.Size = new Size(17, 23);
-            textBox30.TabIndex = 1;
-            textBox30.KeyPress += champFormulaire_KeyPressed;
+            DB_14.Location = new Point(316, 112);
+            DB_14.Name = "DB_14";
+            DB_14.Size = new Size(17, 23);
+            DB_14.TabIndex = 1;
+            DB_14.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox14
+            // DH_14
             // 
-            textBox14.Location = new Point(316, 55);
-            textBox14.Name = "textBox14";
-            textBox14.Size = new Size(17, 23);
-            textBox14.TabIndex = 1;
-            textBox14.KeyPress += champFormulaire_KeyPressed;
+            DH_14.Location = new Point(316, 55);
+            DH_14.Name = "DH_14";
+            DH_14.Size = new Size(17, 23);
+            DH_14.TabIndex = 1;
+            DH_14.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox29
+            // DB_13
             // 
-            textBox29.Location = new Point(292, 112);
-            textBox29.Name = "textBox29";
-            textBox29.Size = new Size(17, 23);
-            textBox29.TabIndex = 1;
-            textBox29.KeyPress += champFormulaire_KeyPressed;
+            DB_13.Location = new Point(292, 112);
+            DB_13.Name = "DB_13";
+            DB_13.Size = new Size(17, 23);
+            DB_13.TabIndex = 1;
+            DB_13.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox13
+            // DH_13
             // 
-            textBox13.Location = new Point(292, 55);
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(17, 23);
-            textBox13.TabIndex = 1;
-            textBox13.KeyPress += champFormulaire_KeyPressed;
+            DH_13.Location = new Point(292, 55);
+            DH_13.Name = "DH_13";
+            DH_13.Size = new Size(17, 23);
+            DH_13.TabIndex = 1;
+            DH_13.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox28
+            // DB_12
             // 
-            textBox28.Location = new Point(268, 112);
-            textBox28.Name = "textBox28";
-            textBox28.Size = new Size(17, 23);
-            textBox28.TabIndex = 1;
-            textBox28.KeyPress += champFormulaire_KeyPressed;
+            DB_12.Location = new Point(268, 112);
+            DB_12.Name = "DB_12";
+            DB_12.Size = new Size(17, 23);
+            DB_12.TabIndex = 1;
+            DB_12.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox12
+            // DH_12
             // 
-            textBox12.Location = new Point(268, 55);
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(17, 23);
-            textBox12.TabIndex = 1;
-            textBox12.KeyPress += champFormulaire_KeyPressed;
+            DH_12.Location = new Point(268, 55);
+            DH_12.Name = "DH_12";
+            DH_12.Size = new Size(17, 23);
+            DH_12.TabIndex = 1;
+            DH_12.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox27
+            // DB_11
             // 
-            textBox27.Location = new Point(244, 112);
-            textBox27.Name = "textBox27";
-            textBox27.Size = new Size(17, 23);
-            textBox27.TabIndex = 1;
-            textBox27.KeyPress += champFormulaire_KeyPressed;
+            DB_11.Location = new Point(244, 112);
+            DB_11.Name = "DB_11";
+            DB_11.Size = new Size(17, 23);
+            DB_11.TabIndex = 1;
+            DB_11.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox11
+            // DH_11
             // 
-            textBox11.Location = new Point(244, 55);
-            textBox11.Name = "textBox11";
-            textBox11.Size = new Size(17, 23);
-            textBox11.TabIndex = 1;
-            textBox11.KeyPress += champFormulaire_KeyPressed;
+            DH_11.Location = new Point(244, 55);
+            DH_11.Name = "DH_11";
+            DH_11.Size = new Size(17, 23);
+            DH_11.TabIndex = 1;
+            DH_11.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox26
+            // DB_10
             // 
-            textBox26.Location = new Point(220, 112);
-            textBox26.Name = "textBox26";
-            textBox26.Size = new Size(17, 23);
-            textBox26.TabIndex = 1;
-            textBox26.KeyPress += champFormulaire_KeyPressed;
+            DB_10.Location = new Point(220, 112);
+            DB_10.Name = "DB_10";
+            DB_10.Size = new Size(17, 23);
+            DB_10.TabIndex = 1;
+            DB_10.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox25
+            // DB_9
             // 
-            textBox25.Location = new Point(196, 112);
-            textBox25.Name = "textBox25";
-            textBox25.Size = new Size(17, 23);
-            textBox25.TabIndex = 1;
-            textBox25.KeyPress += champFormulaire_KeyPressed;
+            DB_9.Location = new Point(196, 112);
+            DB_9.Name = "DB_9";
+            DB_9.Size = new Size(17, 23);
+            DB_9.TabIndex = 1;
+            DB_9.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox10
+            // DH_10
             // 
-            textBox10.Location = new Point(220, 55);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(17, 23);
-            textBox10.TabIndex = 1;
-            textBox10.KeyPress += champFormulaire_KeyPressed;
+            DH_10.Location = new Point(220, 55);
+            DH_10.Name = "DH_10";
+            DH_10.Size = new Size(17, 23);
+            DH_10.TabIndex = 1;
+            DH_10.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox24
+            // DB_8
             // 
-            textBox24.Location = new Point(172, 112);
-            textBox24.Name = "textBox24";
-            textBox24.Size = new Size(17, 23);
-            textBox24.TabIndex = 1;
-            textBox24.KeyPress += champFormulaire_KeyPressed;
+            DB_8.Location = new Point(172, 112);
+            DB_8.Name = "DB_8";
+            DB_8.Size = new Size(17, 23);
+            DB_8.TabIndex = 1;
+            DB_8.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox9
+            // DH_9
             // 
-            textBox9.Location = new Point(196, 55);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(17, 23);
-            textBox9.TabIndex = 1;
-            textBox9.KeyPress += champFormulaire_KeyPressed;
+            DH_9.Location = new Point(196, 55);
+            DH_9.Name = "DH_9";
+            DH_9.Size = new Size(17, 23);
+            DH_9.TabIndex = 1;
+            DH_9.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox23
+            // DB_7
             // 
-            textBox23.Location = new Point(148, 112);
-            textBox23.Name = "textBox23";
-            textBox23.Size = new Size(17, 23);
-            textBox23.TabIndex = 1;
-            textBox23.KeyPress += champFormulaire_KeyPressed;
+            DB_7.Location = new Point(148, 112);
+            DB_7.Name = "DB_7";
+            DB_7.Size = new Size(17, 23);
+            DB_7.TabIndex = 1;
+            DB_7.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox8
+            // DH_8
             // 
-            textBox8.Location = new Point(172, 55);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(17, 23);
-            textBox8.TabIndex = 1;
-            textBox8.KeyPress += champFormulaire_KeyPressed;
+            DH_8.Location = new Point(172, 55);
+            DH_8.Name = "DH_8";
+            DH_8.Size = new Size(17, 23);
+            DH_8.TabIndex = 1;
+            DH_8.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox22
+            // DB_6
             // 
-            textBox22.Location = new Point(124, 112);
-            textBox22.Name = "textBox22";
-            textBox22.Size = new Size(17, 23);
-            textBox22.TabIndex = 1;
-            textBox22.KeyPress += champFormulaire_KeyPressed;
+            DB_6.Location = new Point(124, 112);
+            DB_6.Name = "DB_6";
+            DB_6.Size = new Size(17, 23);
+            DB_6.TabIndex = 1;
+            DB_6.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox7
+            // DH_7
             // 
-            textBox7.Location = new Point(148, 55);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(17, 23);
-            textBox7.TabIndex = 1;
-            textBox7.KeyPress += champFormulaire_KeyPressed;
+            DH_7.Location = new Point(148, 55);
+            DH_7.Name = "DH_7";
+            DH_7.Size = new Size(17, 23);
+            DH_7.TabIndex = 1;
+            DH_7.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox21
+            // DB_5
             // 
-            textBox21.Location = new Point(100, 112);
-            textBox21.Name = "textBox21";
-            textBox21.Size = new Size(17, 23);
-            textBox21.TabIndex = 1;
-            textBox21.KeyPress += champFormulaire_KeyPressed;
+            DB_5.Location = new Point(100, 112);
+            DB_5.Name = "DB_5";
+            DB_5.Size = new Size(17, 23);
+            DB_5.TabIndex = 1;
+            DB_5.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox6
+            // DH_6
             // 
-            textBox6.Location = new Point(124, 55);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(17, 23);
-            textBox6.TabIndex = 1;
-            textBox6.KeyPress += champFormulaire_KeyPressed;
+            DH_6.Location = new Point(124, 55);
+            DH_6.Name = "DH_6";
+            DH_6.Size = new Size(17, 23);
+            DH_6.TabIndex = 1;
+            DH_6.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox20
+            // DB_4
             // 
-            textBox20.Location = new Point(76, 112);
-            textBox20.Name = "textBox20";
-            textBox20.Size = new Size(17, 23);
-            textBox20.TabIndex = 1;
-            textBox20.KeyPress += champFormulaire_KeyPressed;
+            DB_4.Location = new Point(76, 112);
+            DB_4.Name = "DB_4";
+            DB_4.Size = new Size(17, 23);
+            DB_4.TabIndex = 1;
+            DB_4.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox5
+            // DH_5
             // 
-            textBox5.Location = new Point(100, 55);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(17, 23);
-            textBox5.TabIndex = 1;
-            textBox5.KeyPress += champFormulaire_KeyPressed;
+            DH_5.Location = new Point(100, 55);
+            DH_5.Name = "DH_5";
+            DH_5.Size = new Size(17, 23);
+            DH_5.TabIndex = 1;
+            DH_5.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox19
+            // DB_3
             // 
-            textBox19.Location = new Point(52, 112);
-            textBox19.Name = "textBox19";
-            textBox19.Size = new Size(17, 23);
-            textBox19.TabIndex = 1;
-            textBox19.KeyPress += champFormulaire_KeyPressed;
+            DB_3.Location = new Point(52, 112);
+            DB_3.Name = "DB_3";
+            DB_3.Size = new Size(17, 23);
+            DB_3.TabIndex = 1;
+            DB_3.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox4
+            // DH_4
             // 
-            textBox4.Location = new Point(76, 55);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(17, 23);
-            textBox4.TabIndex = 1;
-            textBox4.KeyPress += champFormulaire_KeyPressed;
+            DH_4.Location = new Point(76, 55);
+            DH_4.Name = "DH_4";
+            DH_4.Size = new Size(17, 23);
+            DH_4.TabIndex = 1;
+            DH_4.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox18
+            // DB_2
             // 
-            textBox18.Location = new Point(28, 112);
-            textBox18.Name = "textBox18";
-            textBox18.Size = new Size(17, 23);
-            textBox18.TabIndex = 1;
-            textBox18.KeyPress += champFormulaire_KeyPressed;
+            DB_2.Location = new Point(28, 112);
+            DB_2.Name = "DB_2";
+            DB_2.Size = new Size(17, 23);
+            DB_2.TabIndex = 1;
+            DB_2.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox3
+            // DH_3
             // 
-            textBox3.Location = new Point(52, 55);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(17, 23);
-            textBox3.TabIndex = 1;
-            textBox3.KeyPress += champFormulaire_KeyPressed;
+            DH_3.Location = new Point(52, 55);
+            DH_3.Name = "DH_3";
+            DH_3.Size = new Size(17, 23);
+            DH_3.TabIndex = 1;
+            DH_3.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox17
+            // DB_1
             // 
-            textBox17.Location = new Point(4, 112);
-            textBox17.Name = "textBox17";
-            textBox17.Size = new Size(17, 23);
-            textBox17.TabIndex = 1;
-            textBox17.KeyPress += champFormulaire_KeyPressed;
+            DB_1.Location = new Point(4, 112);
+            DB_1.Name = "DB_1";
+            DB_1.Size = new Size(17, 23);
+            DB_1.TabIndex = 1;
+            DB_1.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox2
+            // DH_2
             // 
-            textBox2.Location = new Point(28, 55);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(17, 23);
-            textBox2.TabIndex = 1;
-            textBox2.KeyPress += champFormulaire_KeyPressed;
+            DH_2.Location = new Point(28, 55);
+            DH_2.Name = "DH_2";
+            DH_2.Size = new Size(17, 23);
+            DH_2.TabIndex = 1;
+            DH_2.KeyPress += champFormulaire_KeyPressed;
             // 
-            // textBox1
+            // DH_1
             // 
-            textBox1.Location = new Point(4, 55);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(17, 23);
-            textBox1.TabIndex = 1;
-            textBox1.KeyPress += champFormulaire_KeyPressed;
+            DH_1.Location = new Point(4, 55);
+            DH_1.Name = "DH_1";
+            DH_1.Size = new Size(17, 23);
+            DH_1.TabIndex = 1;
+            DH_1.KeyPress += champFormulaire_KeyPressed;
             // 
             // label1
             // 
@@ -431,38 +431,38 @@
 
         private SplitContainer splitContainer1;
         private Label label1;
-        private TextBox textBox1;
-        private TextBox textBox32;
-        private TextBox textBox16;
-        private TextBox textBox31;
-        private TextBox textBox15;
-        private TextBox textBox30;
-        private TextBox textBox14;
-        private TextBox textBox29;
-        private TextBox textBox13;
-        private TextBox textBox28;
-        private TextBox textBox12;
-        private TextBox textBox27;
-        private TextBox textBox11;
-        private TextBox textBox26;
-        private TextBox textBox25;
-        private TextBox textBox10;
-        private TextBox textBox24;
-        private TextBox textBox9;
-        private TextBox textBox23;
-        private TextBox textBox8;
-        private TextBox textBox22;
-        private TextBox textBox7;
-        private TextBox textBox21;
-        private TextBox textBox6;
-        private TextBox textBox20;
-        private TextBox textBox5;
-        private TextBox textBox19;
-        private TextBox textBox4;
-        private TextBox textBox18;
-        private TextBox textBox3;
-        private TextBox textBox17;
-        private TextBox textBox2;
+        private TextBox DH_1;
+        private TextBox DB_16;
+        private TextBox DH_16;
+        private TextBox DB_15;
+        private TextBox DH_15;
+        private TextBox DB_14;
+        private TextBox DH_14;
+        private TextBox DB_13;
+        private TextBox DH_13;
+        private TextBox DB_12;
+        private TextBox DH_12;
+        private TextBox DB_11;
+        private TextBox DH_11;
+        private TextBox DB_10;
+        private TextBox DB_9;
+        private TextBox DH_10;
+        private TextBox DB_8;
+        private TextBox DH_9;
+        private TextBox DB_7;
+        private TextBox DH_8;
+        private TextBox DB_6;
+        private TextBox DH_7;
+        private TextBox DB_5;
+        private TextBox DH_6;
+        private TextBox DB_4;
+        private TextBox DH_5;
+        private TextBox DB_3;
+        private TextBox DH_4;
+        private TextBox DB_2;
+        private TextBox DH_3;
+        private TextBox DB_1;
+        private TextBox DH_2;
         private Button button1;
         private ComboBox comboBox1;
         private TextBox textBox33;
