@@ -1,7 +1,7 @@
 ﻿using System;
 using Npgsql;
 
-namespace Connection
+namespace Dentiste
 {
     public class Connect
     {
